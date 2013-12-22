@@ -2,7 +2,18 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Cultural</title>
+	<title></title>
+  
+	<meta name="title" content="jQuery Full Page Navigation by Pete R. | The Pete Design" />
+	<meta name="description" content="Create a fully responsive and dynamic full page navigation with one JS call." />
+	<link rel="image_src" href="/images/fullpagenav_image.png" />
+
+	<meta content="http://www.thepetedesign.com/demos/fullpagenav_demo.html" property="og:url" />
+	<meta content="http://www.thepetedesign.com/images/fullpagenav_image.png" property="og:image" />
+	<link rel="shortcut icon" id="favicon" href="favicon.png"> 
+	<meta name="author" content="Pete R.">
+	
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="jquery-1.9.1.js"></script>
   <script type="text/javascript" src="jquery.fullpagenav.js"></script>
   <link href='fullpagenav.css' rel='stylesheet' type='text/css'>
@@ -41,7 +52,7 @@
       color: #fff;
       text-shadow: 0 1px 5px rgba(0,0,0,0.5);
       margin-bottom: 5px;
-      font-size: 70px;
+      font-size: 60px;
       letter-spacing: -4px;
     }
     h2 {
@@ -52,6 +63,9 @@
       margin-bottom: 10px;
     }
     
+    #font {
+      font: sans-serif;
+    }
     .pointer {
       color: #9b59b6;
       font-family: 'Pacifico', cursive;
@@ -87,6 +101,8 @@
       background: -moz-linear-gradient( rgba(0,0,0,0.69), transparent 90%);
       background: -o-linear-gradient(rgba(0,0,0,0.69), transparent 90%);
       background: linear-gradient(rgba(0, 0, 0, 0.69), rgba(0, 0, 0, 0) 90%);
+      font-family: sans-serif;
+      font-size: 30px;
     }
     
     .main h1 {
@@ -180,18 +196,17 @@
       position: absolute;
       top: 0;
       left: 0;
-      text-align: center;
+      text-align: left;
       display: block;
-      padding: 20px;
+      padding: 7px;
       width: 100%;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
       background: rgba(0, 0, 0, 0.65);
       font-weight: bold;
-      font-size: 10px;
+      font-size: 13px;
       color: #fff;
-      opacity: 0.60;
       -webkit-transition: all 200ms ease-out;
       -moz-transition: all 200ms ease-out;
       -o-transition: all 200ms ease-out;
@@ -199,7 +214,6 @@
     }
     .back:hover {
       background: rgba(0, 0, 0, 0.85);
-      opacity: 99;
     }
     
     
@@ -266,7 +280,7 @@
       margin: 0;
       text-align: center;
       padding: 0;
-      font-size: 40px;
+      font-size: 50px;
     }
     
     .fullpagenav .fpn_wrap .content h1 a{
@@ -300,73 +314,52 @@
 	</script>
 </head>
 <body>
+
   <div class="wrapper">
 	  <div class="main">
-	    
       <ul class="page_container">
-
-        <li class="nav1" data-link="supernova1.html">
-           <img src="supernova.jpg">
-            <div class="content">
-              <h1><a href="supernova1.html">Zara Nach ke Dikha</a></h1>
+             <div id="header">
+            <img src="title.png">
             </div>
+        <li class="nav1" data-link="supernova/supernova.html">
+          <img src="ab.jpg">
+          <div class="content">
+            <h1><a href="supernova/supernova.html">Supernova</br>..........</a></h1>
+          </div>
         </li>
-        
         <li class="nav2" data-link="">
-            <img src="procyon.jpg">
-            <div class="content">
-              <h1><a href="">Duet Dancing</a></h1>
-            </div>
-        </li>
+          <img src="cygnus.jpg">
+          <div class="content">
+            <h1><a href="">Procyon</br>..........</a></h1>
+          </div>
 
+        </li>
         <li class="nav3" data-link="">
-            <img src="supernova.jpg">
-              <div class="content">
-                <h1><a href="">Dancing Demons</a></h1>
-              </div>
-        </li>
+          <img src="ab.jpg">
+          <div class="content">
+            <h1><a href="">Cygnus</br>..........</a></h1>
+          </div>
 
+        </li>
         <li class="nav4" data-link="">
-            <img src="procyon.jpg">
-              <div class="content">
-                <h1><a href="">Percption Idol</a></h1>
-              </div>
-        </li>
+          <img src="cygnus.jpg">
+          <div class="content">
+            <h1><a href="">Auriga</br>..........</a></h1>
+          </div>
 
+        </li>
         <li class="nav5" data-link="">
-            <img src="supernova.jpg">
-              <div class="content">
-                <h1><a href="">Duet Singing</a></h1>
-              </div>
-        </li>
+          <img src="ab.jpg">
+          <div class="content">
+            <h1><a href="">Anderomeda</br>..........</br></a></h1>
+          </div>
 
-        <li class="nav6" data-link="">
-            <img src="procyon.jpg">
-              <div class="content">
-                 <h1><a href="">War Of DJ's</a></h1>
-              </div>
         </li>
-
-        <li class="nav7" data-link="">
-            <img src="ab.jpg">
-              <div class="content">
-                 <h1><a href="">Crop The World</a></h1>
-              </div>
-        </li>
-
-        <li class="nav8" data-link="">
-            <img src="ab.jpg">
-              <div class="content">
-                 <h1><a href="">Ticket To Bollywood</a></h1>
-              </div>
-        </li>
-
-    
       </ul>
     </div>
     
     
   </div>
-   <a class="back" href=""><img src="title.png" height="80px" /></a>
+  <a class="back" href=""><img src="title.png" height="80px" /></a>
 </body>
 </html>
